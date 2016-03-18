@@ -9,8 +9,13 @@
           %li= msg
 
   .form_group
-    = f.input :title, input_html: { class: 'form-comtrol' }
+    = f.input :title, input_html: { class: 'form-control' }
+
+  %br
+
   .form_group
-    = f.input :description, input_html: { class: 'form-comtrol' }
+    = f.input :description, input_html: { class: 'form-control' }
+
+  %br
 
   = f.button :submit, class: "btn btn-info"
